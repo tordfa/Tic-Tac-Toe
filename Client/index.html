@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WebSockets</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+
+        <div class="loginContainer">
+            <h1 id="loginText" class="loginText">Login to play online Tic-Tac-Toe!</h1>
+            <input type="text" id="login" value="" placeholder="Enter Username">
+            <input type="submit" id="submit" value="Login">
+            <p id="loginInfo"></p>
+            <p id="player1">Player1: None </p>
+            <p id="player2">Player2: None </p>
+            <button id="readyButton">Ready</button>
+            <button id="playAgain">Play again</button>
+        </div> <!-- Simple HTML page for sending messages with input box and send button-->
+
+
+
+        <!-- <button id="send">Login</button>
+    <button id="connect">Connect</button> -->
+        <div class="gameContainer">
+            <div class="game" id="game">
+                <diV class="gameTile" id="0"></diV>
+                <diV class="gameTile" id="1"></diV>
+                <diV class="gameTile" id="2"></diV>
+                <diV class="gameTile" id="3"></diV>
+                <diV class="gameTile" id="4"></diV>
+                <diV class="gameTile" id="5"></diV>
+                <diV class="gameTile" id="6"></diV>
+                <diV class="gameTile" id="7"></diV>
+                <diV class="gameTile" id="8"></diV>
+            </div>
+            <p id="playerTurn"></p>
+        </div>
+        <div class="statsContainer">
+            <!-- <p id="connectedPlayers"></p> -->
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

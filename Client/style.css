@@ -1,0 +1,57 @@
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: #393E46;
+    color: #EEEEEE; 
+    margin: 0 0 0 0;
+}
+
+.game{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10%;
+}
+.gameTile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.gameTile:hover{
+    border-color: red;
+}
+
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility:hidden;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#player1, #player2, #readyButton, #playAgain{
+    visibility: hidden;
+}
+
+#readyButton{
+    color:red;
+}
